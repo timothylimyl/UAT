@@ -5,7 +5,7 @@ The Universal approximation theorem claims that the standard multi-layer feedfor
 is able to approximate continuous functions with the usage of arbitrary activation functions. ([source](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.2647&rep=rep1&type=pdf))
 
 
-However, the ability of the neural network to approximate any continuous functions mapping the input to the output goal is constraint by the number of neurons, hidden layers and many techniques utilised during the training process of the network. Intuitively, you can think of this as whether are there possibly enough computational units and operations set up to approximate a continuous function that can properly map the input to the output. The ability to approximate is also highly dependent on efficiency of the optimization routine that we use. These parameters determining the set up and training of the neural network is commonly known as hyperparameters.
+However, the ability of the neural network to approximate any continuous functions mapping the input to the output goal is constraint by the number of neurons, hidden layers and many techniques utilised during the training process of the network. Intuitively, you can think of this as whether are there possibly enough computational units and operations set up to approximate a continuous function that can properly map the input to the output. The ability to approximate is also highly dependent on efficiency of the optimization routine and loss function that we use. These parameters determining the set up and training of the neural network is commonly known as hyperparameters.
 
 Example of hyperparameters we can tune in the code:
 
