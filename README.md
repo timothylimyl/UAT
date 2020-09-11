@@ -71,5 +71,5 @@ Lastly, if the relationship is too complex, 1 hidden layer with 50 neurons may n
 
 # Recommendation
 
-Please do try other functions such as `sin(x)` or `cos(x)` and see whether can u approximate the relationship. You may keep failing till you get the hyperparameters right but it will give you a good insight into tuning hyperparameters. I suggest if the function is too hard to approximate, go ahead and add more layers and neurons! 
+Please do try other functions such as `sin(x)` or `cos(x)` and see whether can u approximate the relationship. You may keep failing till you get the hyperparameters right but it will give you a good insight into tuning hyperparameters. I suggest if the function is too hard to approximate, go ahead and add more layers and neurons! Try out different optimizer such as SGD and ADAM, compare the results.
 
