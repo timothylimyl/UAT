@@ -4,6 +4,7 @@
 The Universal approximation theorem claims that the standard multi-layer feedforward networks with a single hidden layer that contains finite number of hidden neurons
 is able to approximate continuous functions with the usage of arbitrary activation functions. ([source](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.2647&rep=rep1&type=pdf))
 
+
 However, the ability of the neural network to approximate any continuous functions mapping the input to the output goal is constraint by the number of neurons, hidden layers and many techniques utilised during the training process of the network. Intuitively, you can think of this as whether are there possibly enough computational units and operations set up to approximate a continuous function that can properly map the input to the output. The ability to approximate is also highly dependent on efficiency of the optimization routine that we use. These parameters determining the set up and training of the neural network is commonly known as hyperparameters.
 
 Example of hyperparameters we can tune in the code:
@@ -31,6 +32,10 @@ optimizer = optim.RMSprop(model.parameters(), lr=learning_rate) # define optimiz
 criterion = nn.MSELoss() # define loss function
 
 ```
+
+A simple illustration for a single hidden layer feedforward network architecture with 8 neurons:
+
+![nn](images/nn.jpg)
 
 We can run some experiments in code to better understand the concept of approximation. Given that the function we are trying to approximate has the relationship of y = x^2, we can run some experiments to gauge how many neurons for a single hidden layer is necessary to fit the y=x^2 curve and tune hyperparameters in search for the best results.
 
