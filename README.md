@@ -33,16 +33,16 @@ criterion = nn.MSELoss() # define loss function
 
 ```
 
-A simple illustration for a single hidden layer feedforward network architecture with 8 neurons:
-
-![nn](images/nn.jpg)
-
 We can run some experiments in code to better understand the concept of approximation. Given that the function we are trying to approximate has the relationship of y = x^2, we can run some experiments to gauge how many neurons for a single hidden layer is necessary to fit the y=x^2 curve and tune hyperparameters in search for the best results.
 
 ![img1](images/approx_1.png)
 
 
 From the figure above, we can see the with 20 neurons in a single hidden layer, the neural network is able to approximate the function pretty well just by training on the output values. Increasing to 50 neurons in the single hidden layer provided us with better results. 
+
+A simple illustration for a single hidden layer feedforward network architecture with 8 neurons:
+
+![nn](images/nn.jpg)
 
 In theory, the universal approximation theorems implies that neural networks can approximate a wide variety of functions very well when given an appropriate combination values. However, learning to construct the network with the appropriate values is not always possible due to the constraint/challenges when training the network in search for such values.
 
