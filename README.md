@@ -40,7 +40,7 @@ We can run some experiments in code to better understand the concept of approxim
 
 From the figure above, we can see the with 20 neurons in a single hidden layer, the neural network is able to approximate the function pretty well just by training on the output values. Increasing to 50 neurons in the single hidden layer provided us with better results. 
 
-A simple illustration for a single hidden layer feedforward network architecture with 8 neurons:
+Recap, a simple illustration for a single hidden layer feedforward network architecture with 8 neurons:
 
 ![nn](images/nn.jpg)
 
